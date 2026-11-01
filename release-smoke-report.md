@@ -6,6 +6,7 @@
 - Title: Add Release Checklist section and smoke workflow
 - Changed files with additions/deletions:
   - README.md: +7 / -0 (status: modified)
+  - release-smoke-report.md: +39 / -0 (status: added)
 
 ## Workflow run
 
@@ -33,7 +34,15 @@ No team memberships were returned. The teams call succeeded and reported:
 
 ## Computed stats
 
-- Changed files: 1
-- Total additions: 7
+- Changed files: 2
+- Total additions: 46
 - Total deletions: 0
-FINGERPRINT=b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5
+FINGERPRINT=98a30e4e7afebb4a90e1ba766eb6d0eafcbb1d10f1f6a849f83dcf8728194b88
+
+## Gist fallback note
+
+The secret gist creation attempt failed with the following verbatim error:
+
+failed to create gist: POST https://api.github.com/gists: 403 Resource not accessible by personal access token []
+
+The report is therefore preserved as release-smoke-report.md in this branch instead.
